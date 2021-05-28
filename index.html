@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Exchanger</title>
-    
+
 </head>
+
 <body>
+    <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div class="card p-3">
+                    <form>
+                        <h1 class="h2 mb-4">Exchanger</h1>
+                        <div class="courses">
+                            <div class="card card-body courses-item">
+                                <div class="corse-item-title">Rate USD </div>
+                                <div class="corse-item-value" data-value="USD"></div>
+                            </div>
+                            <div class="card card-body courses-item">
+                                <div class="corse-item-title"></div>
+                                <div class="corse-item-value" data-value="EUR">Rate EUR</div>
+                            </div>
+                            <div class="card card-body courses-item">
+                                <div class="corse-item-title"></div>
+                                <div class="corse-item-value" data-value="GBP">Rate GBP</div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-1">
+                            <div class="col">
+                                <label for="name">Give:</label>
+                                <select class="form-control"  id="exampleFormControlSelect1">
+                                    <option value="RUB">RUB - Rubles</option>
+                                </select>                                
+                            </div>
+                            <div class="col">
+                                <label for="name">Get:</label>
+                                <select class="form-control"  id="exampleFormControlSelect1">
+                                    <option value="USD">USD - U.S dollar</option>
+                                    <option value="EUR">EUR - Euro</option>
+                                    <option value="GBP">GBP - Sterling</option>
+                                </select>                                
+                            </div>                            
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <input type="number" name="name" class="form-control" id="input input" autofocus>
+                            </div>
+                            <div class="col">
+                                <input type="number" name="name" class="form-control" id="input result">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
