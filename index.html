@@ -12,57 +12,17 @@
 </head>
 
 <body>
-    <div class="container pt-5 pb-5">
-        <div class="row justify-content-center">
-            <div class="col-6">
-                <div class="card p-3">
-                    <form>
-                        <h1 class="h2 mb-4">Exchanger</h1>
-                        <div class="courses">
-                            <div class="card card-body courses-item">
-                                <div class="corse-item-title">Rate USD </div>
-                                <div class="corse-item-value" data-value="USD"></div>
-                            </div>
-                            <div class="card card-body courses-item">
-                                <div class="corse-item-title"></div>
-                                <div class="corse-item-value" data-value="EUR">Rate EUR</div>
-                            </div>
-                            <div class="card card-body courses-item">
-                                <div class="corse-item-title"></div>
-                                <div class="corse-item-value" data-value="GBP">Rate GBP</div>
-                            </div>
-                        </div>
-
-                        <div class="row mb-1">
-                            <div class="col">
-                                <label for="name">Give:</label>
-                                <select class="form-control"  id="exampleFormControlSelect1">
-                                    <option value="RUB">RUB - Rubles</option>
-                                </select>                                
-                            </div>
-                            <div class="col">
-                                <label for="name">Get:</label>
-                                <select class="form-control"  id="exampleFormControlSelect1">
-                                    <option value="USD">USD - U.S dollar</option>
-                                    <option value="EUR">EUR - Euro</option>
-                                    <option value="GBP">GBP - Sterling</option>
-                                </select>                                
-                            </div>                            
-                        </div>
-
-                        <div class="row">
-                            <div class="col">
-                                <input type="number" name="name" class="form-control" id="input input" autofocus>
-                            </div>
-                            <div class="col">
-                                <input type="number" name="name" class="form-control" id="input result">
-                            </div>
-                        </div>
-                    </form>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-8 offset-1">
+                <table class="table">
+                    <tbody id="data"></tbody>
+                </table>
             </div>
         </div>
     </div>
+
+    <script src="axios.min.js"></script>
     <script src="script.js"></script>
 </body>
 
