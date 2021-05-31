@@ -5,4 +5,4 @@ You need to create a web page with the current exchange rate of the Belarusian r
 You can find the official exchange rate of the Belarusian ruble in relation to foreign currencies here.
 
 
-[Ссылка на выполненное задание](https://evgenprushk.github.io/ITRexGroupTask2/)
+[Ссылка на выполненное задание](https://evgenprushk.github.io/ITRexGroupTask1/)
